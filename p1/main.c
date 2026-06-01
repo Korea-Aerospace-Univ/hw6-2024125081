@@ -24,7 +24,7 @@ int main(void)
         }
         //더 큰 경우를 찾은 경우에만 갱신 
         if (count > maxCount) {
-            maxCount = count;        
+            maxCount = count;        //빈도가 같은 경우에는 갱신하지 않으므로 먼저 나온 문자가 출력됨
             result = *p;
         }
         
