@@ -10,7 +10,7 @@ int main(void)
         scanf("%c", p);                    //포인터를 이용해 배열에 저장
     }
         
-    char result = ch[0];                 //result의 문자 배열의 원소를 비워두는 초기화 
+    char result = '\0';                 //result의 문자 배열의 원소를 비워두는 초기화 
     int maxCount = 0;                   //가장 많이 나타난 빈도수를 찾기 위한 변수 초기화
         
         
